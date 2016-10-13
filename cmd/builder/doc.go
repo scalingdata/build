@@ -59,4 +59,4 @@ If the Google Code credentials are not provided the archival step
 will be skipped.
 
 */
-package main // import "golang.org/x/build/cmd/builder"
+package main // import "github.com/scalingdata/go-x-build/cmd/builder"

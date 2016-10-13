@@ -9,9 +9,9 @@ FORCE:
 # And watch its logs with:
 #   sudo journalctl -f -u gobuild.service
 upload: FORCE
-	go install golang.org/x/build/cmd/upload
-	upload --verbose --osarch=linux-amd64 --file=go:golang.org/x/build/cmd/coordinator --public go-builder-data/coordinator
+	go install github.com/scalingdata/go-x-build/cmd/upload
+	upload --verbose --osarch=linux-amd64 --file=go:github.com/scalingdata/go-x-build/cmd/coordinator --public go-builder-data/coordinator
 
 dev-upload: FORCE
-	go install golang.org/x/build/cmd/upload
-	upload --verbose --osarch=linux-amd64 --file=go:golang.org/x/build/cmd/coordinator --public dev-go-builder-data/coordinator
+	go install github.com/scalingdata/go-x-build/cmd/upload
+	upload --verbose --osarch=linux-amd64 --file=go:github.com/scalingdata/go-x-build/cmd/coordinator --public dev-go-builder-data/coordinator

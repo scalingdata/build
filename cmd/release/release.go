@@ -25,10 +25,10 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/build"
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
+	"github.com/scalingdata/go-x-build"
+	"github.com/scalingdata/go-x-build/buildenv"
+	"github.com/scalingdata/go-x-build/buildlet"
+	"github.com/scalingdata/go-x-build/dashboard"
 )
 
 var (
@@ -113,7 +113,7 @@ func findReleaselet() error {
 	}
 
 	// Then, try to locate the release command in the workspace.
-	const importPath = "golang.org/x/build/cmd/release"
+	const importPath = "github.com/scalingdata/go-x-build/cmd/release"
 	pkg, err := gobuild.Import(importPath, "", gobuild.FindOnly)
 	if err != nil {
 		return fmt.Errorf("finding %q: %v", importPath, err)

@@ -9,7 +9,7 @@ docker: Dockerfile
 
 # TODO(bradfitz): docs on how to build a new image. In a nutshell,
 #
-#    $ go install golang.org/x/build/cmd/docker2boot
+#    $ go install github.com/scalingdata/go-x-build/cmd/docker2boot
 #    $ sudo docker2boot --image=gobuilders/linux-x86-sid --out=linux-buildlet-sid.tar.gz --gb=3
 #    $ gsutil cp -a public-read linux-buildlet-sid.tar.gz gs://go-builder-data/linux-buildlet-sid.tar.gz
 #    $ gcloud compute --project symbolic-datum-552 images create linux-buildlet-sid --source-uri gs://go-builder-data/linux-buildlet-sid.tar.gz

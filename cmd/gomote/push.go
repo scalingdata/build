@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/build/buildlet"
+	"github.com/scalingdata/go-x-build/buildlet"
 )
 
 func push(args []string) error {

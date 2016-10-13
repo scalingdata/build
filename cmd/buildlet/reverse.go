@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build"
-	"golang.org/x/build/revdial"
+	"github.com/scalingdata/go-x-build"
+	"github.com/scalingdata/go-x-build/revdial"
 )
 
 var reverseModeBuildKey string

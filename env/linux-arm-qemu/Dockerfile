@@ -44,7 +44,7 @@ ENV GOPATH /gopath
 ENV GOROOT /go1.4
 ENV PATH $GOROOT/bin:$PATH
 RUN cd $GOROOT/src && GOARCH=arm GOOS=linux ./make.bash
-RUN GOARCH=arm GOOS=linux go get golang.org/x/build/cmd/buildlet/stage0
+RUN GOARCH=arm GOOS=linux go get github.com/scalingdata/go-x-build/cmd/buildlet/stage0
 RUN mkdir -p /arm/root/usr/local/bin && cp $GOPATH/bin/linux_arm/stage0 /arm/root/usr/local/bin
 RUN rm -rf /go1.4 /gopath
 

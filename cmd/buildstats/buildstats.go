@@ -5,7 +5,7 @@
 // The buildstats command syncs build logs from Datastore to Bigquery.
 //
 // It will eventually also do more stats.
-package main // import "golang.org/x/build/cmd/buildstats"
+package main // import "github.com/scalingdata/go-x-build/cmd/buildstats"
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"reflect"
 	"time"
 
-	"golang.org/x/build/types"
+	"github.com/scalingdata/go-x-build/types"
 
 	"cloud.google.com/go/bigquery"
 	"cloud.google.com/go/datastore"

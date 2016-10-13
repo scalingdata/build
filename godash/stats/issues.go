@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/aclements/go-gg/table"
-	"golang.org/x/build/godash"
+	"github.com/scalingdata/go-x-build/godash"
 )
 
 func truncateWeek(t time.Time) time.Time {

@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"golang.org/x/build/kubernetes"
-	"golang.org/x/build/kubernetes/api"
+	"github.com/scalingdata/go-x-build/kubernetes"
+	"github.com/scalingdata/go-x-build/kubernetes/api"
 	"golang.org/x/net/context"
 )
 

@@ -4,7 +4,7 @@
 
 // Package buildlet contains client tools for working with a buildlet
 // server.
-package buildlet // import "golang.org/x/build/buildlet"
+package buildlet // import "github.com/scalingdata/go-x-build/buildlet"
 
 import (
 	"bufio"

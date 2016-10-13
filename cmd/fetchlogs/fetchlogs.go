@@ -38,7 +38,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build/types"
+	"github.com/scalingdata/go-x-build/types"
 )
 
 var defaultDir = filepath.Join(xdgCacheDir(), "fetchlogs")

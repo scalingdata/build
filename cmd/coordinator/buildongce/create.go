@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package main // import "golang.org/x/build/cmd/coordinator/buildongce"
+package main // import "github.com/scalingdata/go-x-build/cmd/coordinator/buildongce"
 
 import (
 	"bytes"
@@ -24,7 +24,7 @@ import (
 	"go4.org/cloud/google/gceutil"
 
 	"cloud.google.com/go/datastore"
-	"golang.org/x/build/buildenv"
+	"github.com/scalingdata/go-x-build/buildenv"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	compute "google.golang.org/api/compute/v1"
@@ -33,11 +33,11 @@ import (
 )
 
 var (
-	proj            = flag.String("project", "", "Optional name of the Google Cloud Platform project to create the infrastructure in. If empty, the project defined in golang.org/x/build/buildenv is used, for either production or staging (if the -staging flag is used)")
+	proj            = flag.String("project", "", "Optional name of the Google Cloud Platform project to create the infrastructure in. If empty, the project defined in github.com/scalingdata/go-x-build/buildenv is used, for either production or staging (if the -staging flag is used)")
 	staticIP        = flag.String("static_ip", "", "Static IP to use. If empty, automatic.")
 	reuseDisk       = flag.Bool("reuse_disk", true, "Whether disk images should be reused between shutdowns/restarts.")
 	ssd             = flag.Bool("ssd", true, "If true, use a solid state disk (faster, more expensive)")
-	coordinator     = flag.String("coord", "", "Optional coordinator binary URL. If empty, the URL from a configuration defined in golang.org/x/build/buildenv will be used. ")
+	coordinator     = flag.String("coord", "", "Optional coordinator binary URL. If empty, the URL from a configuration defined in github.com/scalingdata/go-x-build/buildenv will be used. ")
 	staging         = flag.Bool("staging", false, "If true, buildenv.Staging will be used to provide default configuration values. Otherwise, buildenv.Production is used.")
 	skipKube        = flag.Bool("skip_kube", false, "If true, the Kubernetes cluster will not be created.")
 	skipCoordinator = flag.Bool("skip_coordinator", false, "If true, the coordinator instance will not be created.")

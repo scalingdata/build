@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/types"
+	"github.com/scalingdata/go-x-build/buildenv"
+	"github.com/scalingdata/go-x-build/buildlet"
+	"github.com/scalingdata/go-x-build/types"
 )
 
 var (

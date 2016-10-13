@@ -25,8 +25,8 @@ import (
 	"os"
 	"sort"
 
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/buildlet"
+	"github.com/scalingdata/go-x-build/buildenv"
+	"github.com/scalingdata/go-x-build/buildlet"
 )
 
 var (

@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/gerrit"
+	"github.com/scalingdata/go-x-build/gerrit"
 )
 
 // Parsing of Gerrit information and review messages to produce CL structure.
@@ -216,7 +216,7 @@ func uniq(x []int) []int {
 }
 
 // CL records information about a single CL.
-// This is also used by golang.org/x/build/cmd/cl and any changes need
+// This is also used by github.com/scalingdata/go-x-build/cmd/cl and any changes need
 // to reflected in its doc comment.
 type CL struct {
 	Number             int            // CL number

@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"golang.org/x/build/auth"
-	"golang.org/x/build/envutil"
+	"github.com/scalingdata/go-x-build/auth"
+	"github.com/scalingdata/go-x-build/envutil"
 	"golang.org/x/net/context"
 	"google.golang.org/api/option"
 )

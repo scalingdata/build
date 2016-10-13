@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build"
-	"golang.org/x/build/buildenv"
+	"github.com/scalingdata/go-x-build"
+	"github.com/scalingdata/go-x-build/buildenv"
 )
 
 type UserPass struct {

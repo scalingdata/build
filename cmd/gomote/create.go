@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
+	"github.com/scalingdata/go-x-build/buildlet"
+	"github.com/scalingdata/go-x-build/dashboard"
 )
 
 func vmTypes() (s []string) {

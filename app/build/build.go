@@ -24,7 +24,7 @@ import (
 
 	"cache"
 
-	"golang.org/x/build/internal/loghash"
+	"github.com/scalingdata/go-x-build/internal/loghash"
 )
 
 const (

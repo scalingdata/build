@@ -32,4 +32,4 @@ Power it down (with ARCHIVE),
 
 Snapshot the disk.
 
-Start a bunch of them. (see golang.org/x/build/cmd/scaleway)
+Start a bunch of them. (see github.com/scalingdata/go-x-build/cmd/scaleway)

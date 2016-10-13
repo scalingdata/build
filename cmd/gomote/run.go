@@ -10,9 +10,9 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
-	"golang.org/x/build/envutil"
+	"github.com/scalingdata/go-x-build/buildlet"
+	"github.com/scalingdata/go-x-build/dashboard"
+	"github.com/scalingdata/go-x-build/envutil"
 )
 
 func run(args []string) error {

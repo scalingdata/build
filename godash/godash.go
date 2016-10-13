@@ -4,7 +4,7 @@
 
 // Package godash generates dashboards about issues and CLs in the Go
 // Github and Gerrit projects. There is a user-friendly interface in
-// the godash command-line tool at golang.org/x/build/cmd/godash
+// the godash command-line tool at github.com/scalingdata/go-x-build/cmd/godash
 package godash
 
 import (
@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/google/go-github/github"
-	"golang.org/x/build/gerrit"
+	"github.com/scalingdata/go-x-build/gerrit"
 	"golang.org/x/net/context"
 )
 

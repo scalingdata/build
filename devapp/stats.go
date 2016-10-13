@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/godash"
-	gdstats "golang.org/x/build/godash/stats"
+	"github.com/scalingdata/go-x-build/godash"
+	gdstats "github.com/scalingdata/go-x-build/godash/stats"
 
 	"github.com/aclements/go-gg/generic/slice"
 	"github.com/aclements/go-gg/gg"

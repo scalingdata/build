@@ -4,7 +4,7 @@
 
 package godash
 
-import "golang.org/x/build/gerrit"
+import "github.com/scalingdata/go-x-build/gerrit"
 
 func fetchCLs(client *gerrit.Client, reviewers *Reviewers, goReleaseCycle int, q string) ([]*CL, error) {
 	cis, err := client.QueryChanges("-project:scratch -message:do-not-review "+q, gerrit.QueryChangesOpt{

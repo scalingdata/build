@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/gerrit"
-	"golang.org/x/build/godash"
+	"github.com/scalingdata/go-x-build/gerrit"
+	"github.com/scalingdata/go-x-build/godash"
 	"golang.org/x/net/context"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/datastore"

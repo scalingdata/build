@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/dashboard"
+	"github.com/scalingdata/go-x-build/buildenv"
+	"github.com/scalingdata/go-x-build/dashboard"
 	"golang.org/x/oauth2"
 	"google.golang.org/api/compute/v1"
 )

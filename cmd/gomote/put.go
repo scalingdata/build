@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/build/tarutil"
+	"github.com/scalingdata/go-x-build/tarutil"
 )
 
 // put a .tar.gz

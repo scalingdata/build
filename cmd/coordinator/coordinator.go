@@ -9,7 +9,7 @@
 //
 // For an overview of the Go build system, see the README at
 // the root of the x/build repo.
-package main // import "golang.org/x/build/cmd/coordinator"
+package main // import "github.com/scalingdata/go-x-build/cmd/coordinator"
 
 import (
 	"archive/tar"
@@ -41,15 +41,15 @@ import (
 	"go4.org/syncutil"
 
 	"cloud.google.com/go/storage"
-	"golang.org/x/build"
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
-	"golang.org/x/build/gerrit"
-	"golang.org/x/build/internal/lru"
-	"golang.org/x/build/internal/singleflight"
-	"golang.org/x/build/livelog"
-	"golang.org/x/build/types"
+	"github.com/scalingdata/go-x-build"
+	"github.com/scalingdata/go-x-build/buildenv"
+	"github.com/scalingdata/go-x-build/buildlet"
+	"github.com/scalingdata/go-x-build/dashboard"
+	"github.com/scalingdata/go-x-build/gerrit"
+	"github.com/scalingdata/go-x-build/internal/lru"
+	"github.com/scalingdata/go-x-build/internal/singleflight"
+	"github.com/scalingdata/go-x-build/livelog"
+	"github.com/scalingdata/go-x-build/types"
 	"golang.org/x/net/context"
 	"golang.org/x/time/rate"
 )

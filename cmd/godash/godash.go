@@ -18,7 +18,7 @@
 //
 // If the -html flag is specified, godash prints HTML instead of text.
 //
-// Godash expects to find golang.org/x/build/cmd/cl and rsc.io/github/issue
+// Godash expects to find github.com/scalingdata/go-x-build/cmd/cl and rsc.io/github/issue
 // on its $PATH, to read data from Gerrit and GitHub.
 //
 // https://swtch.com/godash is periodically updated with the HTML versions of
@@ -39,8 +39,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/gerrit"
-	"golang.org/x/build/godash"
+	"github.com/scalingdata/go-x-build/gerrit"
+	"github.com/scalingdata/go-x-build/godash"
 	"golang.org/x/net/context"
 )
 

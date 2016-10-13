@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/kubernetes/api"
+	"github.com/scalingdata/go-x-build/kubernetes/api"
 	"golang.org/x/net/context"
 	"golang.org/x/net/context/ctxhttp"
 )

@@ -4,7 +4,7 @@
 
 // Code related to remote buildlets. See x/build/remote-buildlet.txt
 
-package main // import "golang.org/x/build/cmd/coordinator"
+package main // import "github.com/scalingdata/go-x-build/cmd/coordinator"
 
 import (
 	"bytes"
@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
+	"github.com/scalingdata/go-x-build/buildlet"
+	"github.com/scalingdata/go-x-build/dashboard"
 	"golang.org/x/net/context"
 )
 

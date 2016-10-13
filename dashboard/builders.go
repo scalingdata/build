@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/build/buildenv"
+	"github.com/scalingdata/go-x-build/buildenv"
 )
 
 // Builders are the different build configurations.

@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/google/go-github/github"
-	"golang.org/x/build/godash"
+	"github.com/scalingdata/go-x-build/godash"
 	"golang.org/x/net/context"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/log"

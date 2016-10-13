@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
+	"github.com/scalingdata/go-x-build/buildlet"
+	"github.com/scalingdata/go-x-build/dashboard"
 )
 
 func list(args []string) error {

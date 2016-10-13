@@ -15,7 +15,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/build/gerrit"
+	"github.com/scalingdata/go-x-build/gerrit"
 )
 
 func main() {

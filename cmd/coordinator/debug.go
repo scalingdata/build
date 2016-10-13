@@ -15,7 +15,7 @@ import (
 	"strings"
 	"text/template"
 
-	"golang.org/x/build/types"
+	"github.com/scalingdata/go-x-build/types"
 )
 
 // handleDoSomeWork adds the last committed CL as work to do.
